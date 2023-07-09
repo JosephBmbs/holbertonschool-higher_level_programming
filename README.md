@@ -28,9 +28,7 @@ To enhance your learning experience, we recommend reading or watching the follow
 - Pycodestyle - Style Guide for Python Code
 
 ## Learning Objectives
-<p align="center">
-  <img src="https://www.paliscope.com/wp-content/uploads/2018/04/Gif-animation-hello.gif" alt="Hello, World Screenshot">
-</p>
+
 
 By the end of this project, you should be able to:
 
