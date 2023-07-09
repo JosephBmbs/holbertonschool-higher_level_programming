@@ -1,13 +1,13 @@
 <h1 align="center">Python - if/else, loops, functions</h1>
 
 <p align="center">
-  <img src="https://i.stack.imgur.com/K0OnO.gif">
+  <img src="https://i.redd.it/1kwlumousw9a1.gif">
 </p>
 
 
 ## Novice
 By: Guillaume
-Weight: 1
+
 
 ## Resources
 Read or watch:
