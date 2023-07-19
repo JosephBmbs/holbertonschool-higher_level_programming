@@ -8,7 +8,7 @@ This project covers the topic of importing functions and modules in Python. It i
 
 ## Learning Objectives
 
-By completing this project, you will be able to explain the following concepts without the help of Google:
+By completing this project, i will be able to explain the following concepts without the help of Google:
 
 - Why Python programming is awesome
 - How to import functions from another file
