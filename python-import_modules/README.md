@@ -1,7 +1,7 @@
 
 <p align="center">
   <h1 align="center">Python - Import & Modules</h1>
-  <img src="https://gifer.com/9WsD" alt="Python Logo">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*EFGFJW1UPknNW5DDoM7qSw.gif" alt="Python Logo">
 </p>
 
 This project covers the topic of importing functions and modules in Python. It is part of the curriculum for Python novices and is developed by Guillaume.
