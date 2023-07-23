@@ -1,7 +1,7 @@
 
 <h1 align="center">Python - More Data Structures: Set, Dictionary</h1>
 <div align="center">
-  <img src="https://utechnoworld.com/wp-content/uploads/2022/02/Python-data-Structures-1024x576.jpg" alt="Python Logo" width="200">
+  <img src="https://utechnoworld.com/wp-content/uploads/2022/02/Python-data-Structures-768x432.jpg" alt="Python Logo" width="200">
 </div>
 
 ## Table of Contents
