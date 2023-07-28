@@ -1,6 +1,8 @@
 # <div align="center">Python - Exceptions</div>
 
-<div align="center">![Python Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png)</div>
+<div align="center">
+<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" alt="Python Logo">
+</div>
 
 ## Table of Contents
 - [Description](#description)
