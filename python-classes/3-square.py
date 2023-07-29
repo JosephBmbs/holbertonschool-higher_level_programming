@@ -4,7 +4,6 @@
 A class that defines a square
 """
 
-
 class Square:
     """Initializes a Square instance with a given size"""
 
