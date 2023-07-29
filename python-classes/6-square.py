@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
 """
-Printing a square, Coordinates of a square
+Access and update private attribute, Printing a square
 """
+
 
 class Square:
     """define variables and methods"""
-
     def __init__(self, size=0, position=(0, 0)):
         """initialize attributes"""
         self.size = size
@@ -35,11 +35,11 @@ class Square:
     @position.setter
     def position(self, value):
         """setter for position"""
-        if isinstance(value, tuple) and len(value) is 2 and\
-           value[0] >= 0 and value[1] >= 0:
-            self.__position = value
-        else:
+        if not isinstance(value, tuple) or len(value) != 2:
             raise TypeError("position must be a tuple of 2 positive integers")
+        if not all(isinstance(val, int) and val >= 0 for val in value):
+            raise TypeError("position must be a tuple of 2 positive integers")
+        self.__position = value
 
     def area(self):
         """define area method, evaluate square area"""
@@ -47,16 +47,12 @@ class Square:
 
     def my_print(self):
         """define my_print method, printing of a square"""
-        if self.__size is 0:
+        if self.__size == 0:
             print('')
         else:
-            if self.__position[1] > 0:
-                for k in range(self.__position[1]):
-                    print('')
-            for j in range(self.__size):
-                if self.__position[0] > 0:
-                    for l in range(self.__position[0]):
-                        print(' ', end='')
-                for i in range(self.__size):
-                    print('#', end='')
+            for _ in range(self.__position[1]):
                 print('')
+            for _ in range(self.__size):
+                print(' ' * self.__position[0], end='')
+                print('#' * self.__size)
+
