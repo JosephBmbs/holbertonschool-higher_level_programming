@@ -4,8 +4,10 @@
 Access and update private attribute, Printing a square
 """
 
+
 class Square:
     """define variables and methods"""
+
     def __init__(self, size=0):
         """initialize attributes"""
         self.size = size
