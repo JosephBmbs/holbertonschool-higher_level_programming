@@ -11,21 +11,39 @@ the divisor for all elements in the matrix.
 
 
 def matrix_divided(matrix, div):
-    # Check if matrix is a list of lists of integers or floats
-    if not isinstance(matrix, list) or not all(isinstance(row, list) for row in matrix) \
-            or not all(all(isinstance(element, (int, float)) for element in row) for row in matrix):
-        raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+    """Function that divides all elements of a
+    matrix by div and return a new matrix.
+    """
 
-    row_sizes = set(len(row) for row in matrix)
-    if len(row_sizes) > 1:
-        raise TypeError("Each row of the matrix must have the same size")
+    """Verify if matrix is a list"""
+    if not isinstance(matrix, list):
+        raise TypeError("matrix must be a matrix (list of lists)\
+ of integers/floats")
 
-    if not isinstance(div, (int, float)):
-        raise TypeError("div must be a number")
+    for row in matrix:
+        """Verify if each row is a list"""
+        if not isinstance(row, list):
+            raise TypeError("matrix must be a matrix (list of lists)\
+ of integers/floats")
+        for element in row:
+            """Verify types of elements in the matrix"""
+            if not isinstance(element, (int, float)):
+                raise TypeError("matrix must be a matrix (list of lists)\
+ of integers/floats")
 
+    """Verify if row sizes in the matrix is equal"""
+    row_size = len(matrix[0])
+    for row in matrix:
+        if len(row) != row_size:
+            raise TypeError("Each row of the matrix must have the same size")
+
+    """Verify division by 0"""
     if div == 0:
         raise ZeroDivisionError("division by zero")
 
-    result = [[round(element / div, 2) for element in row] for row in matrix]
+    """Verify type of div"""
+    if type(div) is not int and type(div) is not float:
+        raise TypeError("div must be a number")
 
-    return result
+    new_matrix = [[round(element/div, 2) for element in row] for row in matrix]
+    return new_matrix
