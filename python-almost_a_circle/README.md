@@ -1,6 +1,7 @@
-# Python - Almost a Circle
-
-![Python Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/600px-Python-logo-notext.svg.png)
+<p align="center">Python - Almost a Circle</p>
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/600px-Python-logo-notext.svg.png" alt="Python Logo">
+</p>
 
 This repository contains the source code and test files for the "Almost a Circle" project in Python. In this project, we will review various concepts related to Python, including import, exceptions, classes, private attributes, getters/setters, class methods, static methods, inheritance, unittest, and file read/write operations.
 
