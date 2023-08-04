@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""a Python file similar to model_state.py named model_city.py
-that contains the class definition of a City"""
+"""a script 14-model_city_fetch_by_state.py that prints
+all City objects from the database"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
